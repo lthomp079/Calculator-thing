@@ -5,12 +5,23 @@ int result;
   if (oper == '*') {
     result = one * two;
   }
-  else if (oper == '^') {
+  if (oper == '^') {
     result = one ^ two;
   }
-  else if (oper == '%') {
+  if (oper == '%') {
     result = one % two;
   }
-
-    
-  
+  return result;
+}
+int main() {
+  char oprator;
+  int first, second;
+  cout << "operator\n";
+  cin >> oprator;
+  cout << "first number\n";
+  cin >> first;
+  cout << "second number\n";
+  cin >> second;
+  cout << "answer: " << calculatr(first, second, oprator) << endl;
+  return 0;
+}
