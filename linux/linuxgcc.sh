@@ -1,6 +1,8 @@
-cd .. && cd ..
+cd .. && cd src
 g++ -o .calc ianisnotgay.cpp
+mv .calc ~/Downloads
+cd ~/Downloads
 chmod u+x .calc
 ./.calc
-echo Run .calc in the folder you downloaded this folder in to run.
+echo Run .calc in your downloads to run this again.
 rm -rf ihavelinuxgcc.sh
