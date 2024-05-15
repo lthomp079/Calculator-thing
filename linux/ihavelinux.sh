@@ -1,4 +1,4 @@
 cd ..
 cd src
 python ianisnotgay.py
-echo run me again to use the calc.
+read -p "You have to run this in this folder, or add in the directory in the actual script." -n 1 -s
