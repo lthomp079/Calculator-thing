@@ -1,3 +1,4 @@
+$x &> /dev/null
 cd .. && cd src
 g++ -o calc ianisnotgay.cpp
 chmod u+x calc
